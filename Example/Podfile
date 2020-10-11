@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'PageControlView_Example' do
+  pod 'PageControlView', :path => '../'
+
+  target 'PageControlView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
