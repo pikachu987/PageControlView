@@ -50,17 +50,24 @@ done!
 
 pageControlView.numberOfPages = 4
 pageControlView.currentPage = 1
+
 pageControlView.margin = 20
 pageControlView.padding = 12
+
 pageControlView.pageSize = 16
+
 pageControlView.pageWidth = 4
 pageControlView.pageHeight = 2
 pageControlView.pageRadius = 1
+
+pageControlView.pageIndicatorTintColor = UIColor.lightGray
+
 pageControlView.currentPageWidth = 4
 pageControlView.currentPageHeight = 2
 pageControlView.currentPageRadius = 1
-pageControlView.pageIndicatorTintColor = UIColor.lightGray
+
 pageControlView.currentPageIndicatorTintColor = UIColor.black
+
 pageControlView.transparencyColor = UIColor.white
 pageControlView.transparencyLeftWidth = 24
 pageControlView.transparencyRightWidth = 24
