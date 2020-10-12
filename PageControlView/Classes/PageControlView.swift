@@ -137,6 +137,7 @@ open class PageControlView: UIView {
                 heightConstraint
             ])
 
+            self.layoutIfNeeded()
             self.horizontalFrameCenter()
 
             let currentPage = self.currentPage
