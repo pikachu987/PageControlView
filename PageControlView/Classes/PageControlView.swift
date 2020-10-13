@@ -285,7 +285,7 @@ open class PageControlView: UIView {
         }
     }
 
-    private let scrollView: UIScrollView = {
+    public let scrollView: UIScrollView = {
         let scrollView = UIScrollView()
         scrollView.translatesAutoresizingMaskIntoConstraints = false
         scrollView.showsVerticalScrollIndicator = false
@@ -302,14 +302,14 @@ open class PageControlView: UIView {
         }
     }
 
-    private let currentPageView: UIView = {
+    public let currentPageView: UIView = {
         let view = UIView()
         view.isUserInteractionEnabled = false
         view.translatesAutoresizingMaskIntoConstraints = false
         return view
     }()
 
-    private let leftTransparencyView: UIView = {
+    public let leftTransparencyView: UIView = {
         let view = UIView()
         view.isUserInteractionEnabled = false
         view.translatesAutoresizingMaskIntoConstraints = false
@@ -325,7 +325,7 @@ open class PageControlView: UIView {
         return gradientLayer
     }()
 
-    private let rightTransparencyView: UIView = {
+    public let rightTransparencyView: UIView = {
         let view = UIView()
         view.isUserInteractionEnabled = false
         view.translatesAutoresizingMaskIntoConstraints = false
