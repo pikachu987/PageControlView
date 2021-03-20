@@ -1,8 +1,10 @@
 # PageControlView
 
+[![CI Status](https://img.shields.io/travis/pikachu987/PageControlView.svg?style=flat)](https://travis-ci.org/pikachu987/PageControlView)
 [![Version](https://img.shields.io/cocoapods/v/PageControlView.svg?style=flat)](https://cocoapods.org/pods/PageControlView)
 [![License](https://img.shields.io/cocoapods/l/PageControlView.svg?style=flat)](https://cocoapods.org/pods/PageControlView)
 [![Platform](https://img.shields.io/cocoapods/p/PageControlView.svg?style=flat)](https://cocoapods.org/pods/PageControlView)
+![](https://img.shields.io/badge/Supported-iOS9%20%7C%20OSX%2010.9-4BC51D.svg?style=flat-square)
 [![Swift 5.0](https://img.shields.io/badge/Swift-5.0-orange.svg?style=flat)](https://developer.apple.com/swift/)
 
 ## Introduce
@@ -18,7 +20,7 @@ You can change the number dynamically.
 
 ## Requirements
 
-`PageControlView` written in Swift 5.0. Compatible with iOS 8.0+
+`PageControlView` written in Swift 5.0. Compatible with iOS 9.0+
 
 ## Installation
 
